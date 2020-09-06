@@ -9,7 +9,7 @@ export class PushService {
   constructor(private oneSignal: OneSignal) { }
 
   configuracionInicial(){
-        this.oneSignal.startInit('b2f7f966-d8cc-11e4-bed1-df8f05be55ba', '703322744261');
+        this.oneSignal.startInit('b1cfc0fa-5e41-4ca6-b48a-e5e7c49aa3a6', '741917013960');
 
     this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.InAppAlert);
 
