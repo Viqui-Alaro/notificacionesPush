@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ModalInfoPageRoutingModule } from './modal-info-routing.module';
 
 import { ModalInfoPage } from './modal-info.page';
 
@@ -13,7 +12,6 @@ import { ModalInfoPage } from './modal-info.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    ModalInfoPageRoutingModule
   ],
   declarations: [ModalInfoPage]
 })
